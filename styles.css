@@ -37,6 +37,31 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+/* styles.css */
+
+/* Clock container styling */
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Clock styling */
+#clock {
+    font-family: 'Futura', sans-serif;
+    font-size: 2.5em;
+    color: #f4f1e6;
+    background-color: #191919;
+    padding: 10px 20px;
+    border: 4px solid #f4f1e6;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
 .hero {
     background-image: url('berlin-1920s.jpg'); /* Replace with a 1920s Berlin-inspired image */
     background-size: cover;
