@@ -1,0 +1,128 @@
+/* styles.css */
+
+body {
+    font-family: 'Futura', sans-serif; /* A geometric font reminiscent of the 1920s */
+    background-color: #f4f1e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #191919;
+    color: #f4f1e6;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f1e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.hero {
+    background-image: url('berlin-1920s.jpg'); /* Replace with a 1920s Berlin-inspired image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.art-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art-item {
+    margin: 15px;
+    width: 300px;
+}
+
+.art-item img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #191919;
+}
+
+.art-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#about, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+#contact-form button {
+    background-color: #191919;
+    color: #f4f1e6;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #191919;
+    color: #f4f1e6;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
